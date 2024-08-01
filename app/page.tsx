@@ -1,5 +1,9 @@
+import UploadPage from './components/UploadPage';
 import { Container } from '@radix-ui/themes';
-
 export default function Home() {
-  return <main>Hello World</main>;
+  return (
+    <Container size='1' p='3' align='center'>
+      <UploadPage />
+    </Container>
+  );
 }
